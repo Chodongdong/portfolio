@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import Link from "next/link";
+
 
 const navItems = [
   { label: "Projects", href: "#projects" },
@@ -25,10 +25,7 @@ export function Header() {
         borderBottomColor: `rgba(39, 39, 42, ${borderOpacity.get()})`,
       }}
     >
-      <div className="max-w-5xl mx-auto flex items-center justify-between">
-        <Link href="/" className="font-semibold text-sm tracking-wide">
-          조동현
-        </Link>
+      <div className="max-w-5xl mx-auto flex justify-end">
         <nav className="flex gap-6">
           {navItems.map((item) => (
             <a

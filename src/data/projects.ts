@@ -45,6 +45,7 @@ export const projects: Project[] = [
       },
     ],
     links: [
+      { label: "Live", url: "https://roami-eight.vercel.app/" },
       { label: "GitHub", url: "https://github.com/Chodongdong/Roami" },
     ],
     status: "live",
@@ -75,6 +76,7 @@ export const projects: Project[] = [
       },
     ],
     links: [
+      { label: "Live", url: "https://the-julge-ekxw.vercel.app/" },
       { label: "GitHub", url: "https://github.com/Chodongdong/the-julge" },
     ],
     status: "live",
