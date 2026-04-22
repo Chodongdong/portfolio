@@ -68,7 +68,8 @@ export const projects: Project[] = [
       },
       {
         label: "역할 기반 렌더링",
-        detail: "사장님/알바생 역할에 따른 조건부 UI 분기를 컴포넌트 레벨에서 처리",
+        detail:
+          "사장님/알바생 역할에 따른 조건부 UI 분기를 컴포넌트 레벨에서 처리",
       },
       {
         label: "CI/CD",
@@ -115,7 +116,7 @@ export const projects: Project[] = [
       },
     ],
     links: [
-      { label: "Live", url: "https://dev-mbti-v3x9.vercel.app/" },
+      { label: "Live", url: "https://portfolio-3k6t.vercel.app/" },
       { label: "GitHub", url: "https://github.com/Chodongdong/dev-mbti" },
     ],
     status: "live",
