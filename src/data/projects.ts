@@ -116,7 +116,7 @@ export const projects: Project[] = [
       },
     ],
     links: [
-      { label: "Live", url: "https://portfolio-3k6t.vercel.app/" },
+      { label: "Live", url: "https://dev-mbti-nine.vercel.app/" },
       { label: "GitHub", url: "https://github.com/Chodongdong/dev-mbti" },
     ],
     status: "live",
